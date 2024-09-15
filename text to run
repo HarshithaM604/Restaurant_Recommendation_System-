@@ -1,0 +1,9 @@
+open recommendenation_system folder 
+open terminal and git bash
+conda env remove env
+y
+conda create -n env python=3.7
+
+conda activate env
+streamlit run app.py
+get result
